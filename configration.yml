@@ -4,8 +4,8 @@ data_source snowflake:
   host: soda-demo
   username: raju
   password: Dhiyaguru@465577
-  database: snowflake
-  schema: public
+  database: RAJU
+  schema: DATA
 # Refer to https://go.soda.io/api-keys
 soda_cloud:
   host: cloud.us.soda.io
