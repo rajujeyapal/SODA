@@ -1,0 +1,13 @@
+# configuration.yml file
+data_source aws_postgres_retail:
+  type: postgres
+  host: soda-demo
+  username: ${POSTGRES_USERNAME}
+  password: ${POSTGRES_PASSWORD}
+  database: postgres
+  schema: public
+# Refer to https://go.soda.io/api-keys
+soda_cloud:
+  host: cloud.us.soda.io
+  api_key_id: ${SODA_CLOUD_API_KEY}
+  api_key_secret: ${SODA_CLOUD_API_KEY}
