@@ -1,12 +1,21 @@
-- name: Perform Soda Scan
-  uses: sodadata/soda-github-action@v1
-  env:
-    SODA_CLOUD_API_KEY: ${{ secrets.SODA_CLOUD_API_KEY }}
-    SODA_CLOUD_API_SECRET: ${{ secrets.SODA_CLOUD_API_SECRET }}
-    POSTGRES_USERNAME: ${{ secrets.POSTGRES_USERNAME }}
-    POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
-  with:
-    soda_library_version: v1.0.4
-    data_source: snowflake1
-    configuration: .soda/configuration.yaml
-    checks: .soda/checks.yaml
+on: pull_request
+jobs:
+  soda_scan:
+    runs-on: ubuntu-latest
+    name: Run Soda Scan
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+ 
+      - name: Perform Soda Scan
+        uses: sodadata/soda-github-action@v2
+        env:
+          SODA_CLOUD_API_KEY: 07298b23-c259-4823-bb8c-3532799c6a7f
+          SODA_CLOUD_API_SECRET: fqH4ffodOff_6slrwtxVWrQqozr3ZowZSiCSBC-fuYUoeyr9eJOisg
+          SNOWFLAKE_USERNAME: raju
+          SNOWFLAKE_PASSWORD: Dhiyaguru@465577
+        with:
+          soda_library_version: v1.0.4
+          data_source: snowflake
+          configuration: ./configuration.yml
+          checks: ./checks.yml
