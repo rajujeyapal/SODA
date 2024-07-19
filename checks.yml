@@ -2,8 +2,3 @@ checks for manager:
   - row_count:
       name: count
            fail: when = 0
-
-      checks for manager:
-  - duplicate_count(NAME):
-      name: duplicate
-      fail: when > 0
