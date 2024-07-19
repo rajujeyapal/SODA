@@ -1,6 +1,7 @@
 # configuration.yml file
 data_source snowflake:
   type: snowflake
+  account: pa98452.central-india.azure
   host: soda-demo
   username: raju
   password: Dhiyaguru@465577
