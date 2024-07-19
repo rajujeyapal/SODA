@@ -7,6 +7,9 @@ data_source snowflake:
   password: Dhiyaguru@465577
   database: DATA
   schema: SCHEMA
+  threads: 10
+  client_session_keep_alive: False
+
 # Refer to https://go.soda.io/api-keys
 soda_cloud:
   host: cloud.us.soda.io
