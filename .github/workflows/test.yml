@@ -8,14 +8,14 @@ jobs:
         uses: actions/checkout@v3
  
       - name: Perform Soda Scan
-        uses: sodadata/soda-github-action@v2
+        uses: sodadata/soda-github-action@v1.0.2
         env:
           SODA_CLOUD_API_KEY: d97ee768-08ae-4f83-b8a2-0f5e6c8bd4ac
           SODA_CLOUD_API_SECRET: cCcGSaVmmQDeFQNY7Ymf3Qz_UxGpxJHHeleiOolku4sAoUn_dRHQyA
           SNOWFLAKE_USERNAME: raju
           SNOWFLAKE_PASSWORD: Dhiyaguru@465577
         with:
-          soda_library_version: v1.0.4
+          soda_library_version: v1.5.5
           data_source: snowflake
           configuration: ./configuration.yml
           checks: ./checks.yml
