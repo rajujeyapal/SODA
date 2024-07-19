@@ -1,4 +1,4 @@
-checks for manager:
+checks for CUSTOMER:
   - row_count:
-      name: count
-           fail: when = 0
+      name: count_check
+      fail: when = 0
