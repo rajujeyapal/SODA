@@ -1,11 +1,9 @@
-checks for INFO2:
+checks for manager:
   - row_count:
       name: count
-      identity: 09f1f6d4-f67d-4d23-8bed-9fc6b7bffc47
-      fail: when = 0
+           fail: when = 0
 
-      checks for INFO:
+      checks for manager:
   - duplicate_count(NAME):
       name: duplicate
-      identity: 8ce7238f-007c-44b1-a056-19774aaa9d5c
       fail: when > 0
