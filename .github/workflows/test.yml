@@ -1,7 +1,7 @@
-name: scan for data quality
-
+name: Scan for data quality
+ 
 on: pull_request
-
+ 
 jobs:
   soda_scan:
     runs-on: ubuntu-latest
@@ -12,13 +12,13 @@ jobs:
  
       - name: Perform Soda Scan
         uses: sodadata/soda-github-action@v1.0.2
-        env:
-          SODA_CLOUD_API_KEY: d97ee768-08ae-4f83-b8a2-0f5e6c8bd4ac
-          SODA_CLOUD_API_SECRET: cCcGSaVmmQDeFQNY7Ymf3Qz_UxGpxJHHeleiOolku4sAoUn_dRHQyA
-          SNOWFLAKE_USERNAME: raju
-          SNOWFLAKE_PASSWORD: Dhiyaguru@465577
         with:
           soda_library_version: v1.5.5
-          data_source: snowflake
+          data_source: dbsource
           configuration: ./configuration.yml
           checks: ./checks.yml
+        env:
+          SODA_CLOUD_API_KEY: 782cfa87-e03b-442c-bff7-bfd85be0d7cf
+          SODA_CLOUD_API_SECRET: 2L7gPUXOw8MmW66D8Yi0T5bZXNP-IjRpRyMG9nNP_lE3-IgO3gKvww
+          SNOWFLAKE_USERNAME: RAJU
+          SNOWFLAKE_PASSWORD: Dhiyaguru@465577
