@@ -1,17 +1,15 @@
-# configuration.yml file
-data_source snowflake:
-  type: snowflake
-  account: pa98452.central-india.azure
-  host: soda-demo
-  username: raju
-  password: Dhiyaguru@465577
-  database: DATA
-  schema: SCHEMA
-  threads: 10
-  client_session_keep_alive: False
-
-# Refer to https://go.soda.io/api-keys
+data_source dbsource:  
+    type: snowflake
+    account: pa98452.central-india.azure
+    username: raju
+    password: Dhiyaguru@465577
+    role: accountadmin
+    database: SNOWFLAKE_SAMPLE_DATA
+    warehouse: compute_wh
+    schema: TPCH_SF10
+    threads: 10
+    client_session_keep_alive: False
 soda_cloud:
-  host: cloud.us.soda.io
+  host: cloud.soda.io
   api_key_id: d97ee768-08ae-4f83-b8a2-0f5e6c8bd4ac
   api_key_secret: cCcGSaVmmQDeFQNY7Ymf3Qz_UxGpxJHHeleiOolku4sAoUn_dRHQyA
