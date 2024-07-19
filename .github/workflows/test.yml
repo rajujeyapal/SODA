@@ -18,7 +18,7 @@ jobs:
           configuration: ./configuration.yml
           checks: ./checks.yml
         env:
-          SODA_CLOUD_API_KEY: d97ee768-08ae-4f83-b8a2-0f5e6c8bd4ac
-          SODA_CLOUD_API_SECRET: cCcGSaVmmQDeFQNY7Ymf3Qz_UxGpxJHHeleiOolku4sAoUn_dRHQyA
+          SODA_CLOUD_API_KEY: 0c1708b7-30fd-41c0-8409-8f531fd58eff
+          SODA_CLOUD_API_SECRET: ETRvLV28YJstJYGPtBLWSYQW2bf14Y_Tup7lv44x8b0IUjWOGpdRsQ
           SNOWFLAKE_USERNAME: RAJU
           SNOWFLAKE_PASSWORD: Dhiyaguru@465577
