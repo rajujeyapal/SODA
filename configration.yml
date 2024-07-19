@@ -4,10 +4,10 @@ data_source snowflake:
   host: soda-demo
   username: raju
   password: Dhiyaguru@465577
-  database: RAJU
-  schema: DATA
+  database: DATA
+  schema: SCHEMA
 # Refer to https://go.soda.io/api-keys
 soda_cloud:
   host: cloud.us.soda.io
-  api_key_id: 07298b23-c259-4823-bb8c-3532799c6a7f
-  api_key_secret: fqH4ffodOff_6slrwtxVWrQqozr3ZowZSiCSBC-fuYUoeyr9eJOisg
+  api_key_id: d97ee768-08ae-4f83-b8a2-0f5e6c8bd4ac
+  api_key_secret: cCcGSaVmmQDeFQNY7Ymf3Qz_UxGpxJHHeleiOolku4sAoUn_dRHQyA
