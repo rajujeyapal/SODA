@@ -1,15 +1,15 @@
-data_source snowflake:  
+data_source dbsource:  
     type: snowflake
     account: pa98452.central-india.azure
     username: raju
     password: Dhiyaguru@465577
     role: accountadmin
-    database: data
+    database: SNOWFLAKE_SAMPLE_DATA
     warehouse: compute_wh
-    schema: schema
+    schema: TPCH_SF10
     threads: 10
     client_session_keep_alive: False
-  soda_cloud:
+soda_cloud:
   host: cloud.soda.io
-  api_key_id: 75f02b82-989f-475a-ae79-51cf7b58bad4
-  api_key_secret: 4s8lPrQlmFgTXR-BkKkvR6h6qp0uUCXs0ZAILzPShJCV_rXZ_eGDZg
+  api_key_id: 4e441522-8960-4d8d-b1a7-04ae14d6a386
+  api_key_secret: z7047mrKav63ZoPiuMGVnUTS1P874Havlt64S9aBMcIykCGgSss7mg
