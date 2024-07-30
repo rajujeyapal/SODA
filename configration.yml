@@ -11,5 +11,5 @@ data_source snowflake:
     client_session_keep_alive: False
   soda_cloud:
   host: cloud.soda.io
-  api_key_id: 0c1708b7-30fd-41c0-8409-8f531fd58eff
-  api_key_secret: ETRvLV28YJstJYGPtBLWSYQW2bf14Y_Tup7lv44x8b0IUjWOGpdRsQ
+  api_key_id: 75f02b82-989f-475a-ae79-51cf7b58bad4
+  api_key_secret: 4s8lPrQlmFgTXR-BkKkvR6h6qp0uUCXs0ZAILzPShJCV_rXZ_eGDZg
