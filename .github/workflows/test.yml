@@ -14,7 +14,7 @@ jobs:
         uses: sodadata/soda-github-action@v1.0.2
         with:
           soda_library_version: v1.5.5
-          data_source: snowflake
+          data_source: dbsource
           configuration: ./configuration.yml
           checks: ./checks.yml
         env:
