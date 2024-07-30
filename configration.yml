@@ -4,9 +4,9 @@ data_source snowflake:
     username: raju
     password: Dhiyaguru@465577
     role: accountadmin
-    database: data
+    database: SNOWFLAKE_SAMPLE_DATA
     warehouse: compute_wh
-    schema: schema
+    schema: TPCH_SF1
     threads: 10
     client_session_keep_alive: False
   soda_cloud:

@@ -11,12 +11,12 @@ jobs:
         uses: actions/checkout@v3
  
       - name: Perform Soda Scan
-        uses: sodadata/soda-github-action@v1.0.2
+        uses: sodadata/soda-github-action@v1
         with:
-          soda_library_version: v1.5.5
+          soda_library_version: v1.0.4
           data_source: snowflake
-          configuration: ./configuration.yml
-          checks: ./checks.yml
+          configuration: ./configuration.yaml
+          checks: ./checks.yaml
         env:
           SODA_CLOUD_API_KEY: 75f02b82-989f-475a-ae79-51cf7b58bad4
           SODA_CLOUD_API_SECRET: 4s8lPrQlmFgTXR-BkKkvR6h6qp0uUCXs0ZAILzPShJCV_rXZ_eGDZg
