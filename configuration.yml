@@ -11,5 +11,5 @@ data_source dbsource:
     client_session_keep_alive: False
 soda_cloud:
   host: cloud.soda.io
-  api_key_id: d97ee768-08ae-4f83-b8a2-0f5e6c8bd4ac
-  api_key_secret: cCcGSaVmmQDeFQNY7Ymf3Qz_UxGpxJHHeleiOolku4sAoUn_dRHQyA
+  api_key_id: 4e441522-8960-4d8d-b1a7-04ae14d6a386
+  api_key_secret: z7047mrKav63ZoPiuMGVnUTS1P874Havlt64S9aBMcIykCGgSss7mg
