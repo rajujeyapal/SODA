@@ -1,12 +1,12 @@
-data_source snowflake:  
+data_source dbsource:  
     type: snowflake
     account: pa98452.central-india.azure
     username: raju
     password: Dhiyaguru@465577
     role: accountadmin
-    database: data
+    database: SNOWFLAKE_SAMPLE_DATA
     warehouse: compute_wh
-    schema: schema
+    schema: TPCH_SF10
     threads: 10
     client_session_keep_alive: False
   soda_cloud:
