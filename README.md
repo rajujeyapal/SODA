@@ -1,2 +1,2 @@
 sample 1
-testwin10
+raju_test10
